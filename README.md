@@ -4,7 +4,7 @@
 
 #### **Context & Aims**
 
-This is a template dashboard based on the one that I have developed during my work at BNITM in the *Operational research, Capacity Building and Outbreak response group*. Following the response to the 2021 EVD outbreak in Guinea, capacity building activities were continued and included the implementation of a new data management system in local diagnostic laboratories.
+This is a template dashboard based on the one that I have developed during my work at Bernhard Nocht Institute of Tropical Medicine in the *Operational research, Capacity Building and Outbreak response group*. Following the response to the 2021 Ebola Virus Disease (EVD) outbreak in Guinea, capacity building activities were continued and included the implementation of a new data management system in local diagnostic laboratories.
 
 In each of our partner laboratories, new linelists were developed in Excel (previously used by teams on ground). The linelist gathers, centralises, and standardises *Demographic*, *Clinical*, *Sample* and *Tests* data for each of the sample received in the labs. These data could then be analysed and visualised using the present dashboard entirely designed on R shiny.
 
