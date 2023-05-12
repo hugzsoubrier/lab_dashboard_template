@@ -172,6 +172,10 @@ lab_activities_server <- function(id, clean_data_dated, all_tests_dated, units, 
       
     }
     
+    
+    
+    
+    
     # Map origins 
     output$map_origins <- { renderHighchart({ 
       

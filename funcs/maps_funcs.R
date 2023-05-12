@@ -22,19 +22,19 @@ shp_loading <- function(admin_level) {
   #read and clean spatial data according to admin level
   if ( admin_level == "admin_1") { 
     
-    guinea_shp <- st_read("Data/Spatial/GIN_shp/gadm36_GIN_1.shp") %>% 
+    guinea_shp <- st_read("data/spatial/gin_shp/gadm36_gin_1.shp") %>% 
       dplyr::select(matches(name_var_string), geometry) %>% 
       dplyr::rename("admin_level" = name_var)
     
   } else if (admin_level == "admin_2" ) {
     
-    guinea_shp <- st_read("Data/Spatial/GIN_shp/gadm36_GIN_2.shp") %>% 
+    guinea_shp <- st_read("data/spatial/gin_shp/gadm36_gin_2.shp") %>% 
       dplyr::select(matches(name_var_string), geometry) %>% 
       dplyr::rename("admin_level" = name_var)
     
   } else { 
     
-    guinea_shp <- st_read("Data/Spatial/GIN_shp/gadm36_GIN_3.shp") %>% 
+    guinea_shp <- st_read("data/spatial/gin_shp/gadm36_gin_3.shp") %>% 
       dplyr::select(matches(name_var_string), geometry) %>% 
       dplyr::rename("admin_level" = name_var)
   }
