@@ -15,6 +15,7 @@ shinycssloaders,
 #reactlog,
 
 #data wrangling and cleaning
+matchmaker,
 rio,
 here,
 magrittr,
@@ -33,6 +34,7 @@ DT,
 sf,
 rgdal,
 leaflet
+
 )
 
 # Load Functions ----------------------------------------------------------

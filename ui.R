@@ -1,6 +1,6 @@
 # APP UI GUI_dashboard_VO
 
-ui <- fluidPage(
+ui <- tagList(
     
     useShinyjs(), 
     useShinydashboard(),

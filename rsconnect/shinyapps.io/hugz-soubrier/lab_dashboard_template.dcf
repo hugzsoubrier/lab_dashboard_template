@@ -1,0 +1,13 @@
+name: lab_dashboard_template
+title: lab_dashboard_template
+username:
+account: hugz-soubrier
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9056751
+bundleId: 7204514
+url: https://hugz-soubrier.shinyapps.io/lab_dashboard_template/
+when: 1683812588.44056
+lastSyncTime: 1683812588.44058
+asMultiple: FALSE
+asStatic: FALSE

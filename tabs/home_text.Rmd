@@ -1,7 +1,4 @@
 ---
-title: "Diagnostic Laboratory analysis Dashboard"
-author: "Hugo Soubrier"
-date: "2023-03-12"
 output: html_document
 ---
 
