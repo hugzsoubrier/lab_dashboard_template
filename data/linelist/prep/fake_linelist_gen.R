@@ -57,7 +57,7 @@ data <- data %>% mutate(profession = sample(prof$profession, 2500, replace = T, 
 
 #read shapefile 
 
-guinea_3 <- st_read("data/Spatial/GIN_shp/gadm36_GIN_3.shp")
+guinea_3 <- st_read("data/spatial/gin_shp/gadm36_gin_3.shp")
 
 data <- data %>% mutate(home_country = sample(c(unique(guinea_3$NAME_0), "country 2", NA_character_), replace = T, 2500, prob = c(.8, .05, .05)))
 
@@ -462,7 +462,7 @@ data2 <- data2 %>% mutate(profession = sample(prof$profession, 1250, replace = T
 
 #read shapefile 
 
-guinea_3 <- st_read("data/Spatial/GIN_shp/gadm36_GIN_3.shp")
+guinea_3 <- st_read("data/spatial/gin_shp/gadm36_gin_3.shp")
 
 data2 <- data2 %>% mutate(home_country = sample(c(unique(guinea_3$NAME_0), "country 2", NA_character_), replace = T, 1250, prob = c(.8, .05, .05)))
 
