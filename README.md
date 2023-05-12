@@ -2,6 +2,10 @@
 # **Diagnostic Laboratory dashboard**
 #### *<a href="https://www.hugzsoubrier.com">Hugo Soubrier</a>*
 
+#### Shiny App access 
+
+The dashboard is accessible [here](https://hugz-soubrier.shinyapps.io/lab_dashboard_template/). 
+
 #### **Context & Aims**
 
 This is a template dashboard based on the one that I have developed during my work at *Bernhard Nocht Institute of Tropical Medicine* in the *Operational research, Capacity Building and Outbreak response group*. Following the response to the 2021 Ebola Virus Disease (EVD) outbreak in Guinea, capacity building activities were continued and included the implementation of a new data management system in local diagnostic laboratories.
