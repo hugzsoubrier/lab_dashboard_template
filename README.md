@@ -1,5 +1,3 @@
----
----
 
 # **Diagnostic Laboratory dashboard**
 #### *<a href="https://www.hugzsoubrier.com">Hugo Soubrier</a>*
@@ -32,4 +30,8 @@ Both laboratory are specialised in **Hemorrhagic Fever viruses** diagnostic (*Eb
 
 __*Tests*__\
 To represent the complex reality of diagnostic testing, several tests type were including in the fake datasets. Laboratories can tests using Real-Time RT-PCRs, Gene Xpert technology or Rapid Diagnostic Tests (RDT)
+
+![Alt text]("https://github.com/hugzsoubrier/lab_dashboard_template/blob/main/www/png/scenarios_table.png")
+
+
 
