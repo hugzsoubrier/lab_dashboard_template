@@ -1,4 +1,20 @@
 /*
+ * Component: dynamic width
+ * --------------------
+ */
+ 
+.reactive-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .reactive-width {
+    width: 90%;
+  }
+}
+
+/*
  * Component: Small Box
  * --------------------
  */

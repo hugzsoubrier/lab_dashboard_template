@@ -58,7 +58,7 @@ hc_timespan_data_median <- function(data) {
                         
                         event == "entry_sampl" ~ 0+lag(timespan), 
                         event == "sampl_recep" ~ 0+lag(timespan, n = 2)+lag(timespan, n = 1), 
-                        event == "recep_test" ~ 0+lag(timespan, n = 2)+lag(timespan, n = 1)++lag(timespan, n = 3)),
+                        event == "recep_test" ~ 0+lag(timespan, n = 2)+lag(timespan, n = 1)+lag(timespan, n = 3)),
       
       #define the end point of section
       end = case_when(event == "ons_entry" ~ timespan, 

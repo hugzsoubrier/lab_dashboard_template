@@ -6,6 +6,8 @@ data_vis_ui <- function(id) {
   
   tabPanel( "Raw Data Visualisation", 
             
+            div( class = "reactive-width",
+            
             fluidRow(
               br(),
               
@@ -67,7 +69,7 @@ data_vis_ui <- function(id) {
             
             hr(), 
             
-  ) 
+  ) ) 
   
 }
 
